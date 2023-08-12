@@ -1,0 +1,49 @@
+
+            body
+            {
+                height: 100%;
+                margin: 0;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-image: linear-gradient(to top right, #fc354c, #0abfbc);
+
+            }
+
+            .center
+            {   align-self: center;
+                margin: auto;
+                width: 50%;
+            }
+            .jumbotron
+            {
+                text-align: center;
+            }
+            .form-control
+            {
+                height: max-content;
+            }
+            .well
+            {
+                justify-content: center;
+            }
+
+            ul li 
+            {
+                margin-bottom: 5px;
+                
+            }
+
+            ul li:hover 
+            {
+                background: #ddd;
+            }
+           
+            .parent 
+            {
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                padding: 1%;
+                border: solid lightgrey;
+                
+            }

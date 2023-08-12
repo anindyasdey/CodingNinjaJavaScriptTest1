@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Anindya's To Do List</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="center">
+            <div class="jumbotron"> <h2> Your To Do List </h2> </div>
+            <div class="well"> 
+                <div class ="input-group">
+                    <input id="inputTask" class="form-control width 100" class="form-control rounded" placeholder="To Do Items..." /> 
+                    <span class="input-group-btn">
+                        <button onclick="addItem()" class="btn btn-info"><span class="glyphicon glyphicon-plus-sign"></span></button>
+                    </span>
+                </div>
+            </div>
+
+            <ul id="theList" class="well">
+                <li id="num">  </li>
+            </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
